@@ -37,7 +37,7 @@ body {
 /* Хэдер */
 
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header {
@@ -187,7 +187,6 @@ body {
 /* Преимущества */
 .features {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .features-list {
@@ -200,7 +199,6 @@ body {
 }
 
 .features-item {
-  margin-bottom: 94px;
   width: 270px;
 }
 
@@ -214,7 +212,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
 }
 
 .features-text {
@@ -226,6 +225,11 @@ body {
 }
 
 /* Примеры работ */
+.examples {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .examples-title {
   font-weight: 700;
   font-size: 36px;
@@ -277,7 +281,12 @@ body {
 }
 
 .team-photo {
-  margin-bottom: 30px;
+  display: block;
+}
+
+.team-data {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-name {
@@ -285,7 +294,8 @@ body {
   font-size: 16px;
   line-height: 1.19;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -294,7 +304,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   text-align: center;
 }
 
@@ -311,7 +321,7 @@ body {
   display: flex;
   list-style: none;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   padding-left: 0;
   justify-content: center;
 }
@@ -327,8 +337,6 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-
-  margin-bottom: 50px;
 
   padding: 6px 22px 6px 22px;
   cursor: pointer;
@@ -362,9 +370,10 @@ body {
   margin-bottom: 30px;
 }
 
-.works-item .border {
+.works-border {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding: 20px 0 20px 24px;
 }
 
 .works-item:nth-child(3n) {
@@ -390,10 +399,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-color);
-  padding-top: 20px;
+  padding-bottom: 4px;
   margin-top: 0;
-  margin-bottom: 4px;
-  margin-left: 24px;
+  margin-bottom: 0;
 }
 
 .works-text {
@@ -401,8 +409,8 @@ body {
   line-height: 1.88;
   color: var(--grey-color);
   margin-top: 0;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 /* Футер */
